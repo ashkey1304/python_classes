@@ -4,3 +4,8 @@ def my_decorater(fumc):
         fumc(*args, **kwargs)
         return wapper
 @my_decorater
+def add_ing(x, y):
+    x + y 
+num1 = int(input("Enter the nomber:"))
+num2 = int(input("Enter the number:"))
+add_ing()
